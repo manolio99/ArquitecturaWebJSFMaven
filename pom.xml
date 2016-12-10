@@ -114,6 +114,13 @@
 			<version>${jsf.version}</version>
 		</dependency>
 
+		<!-- PRIMEFACES -->
+		<dependency>
+			<groupId>org.primefaces</groupId>
+			<artifactId>primefaces</artifactId>
+			<version>5.3</version>
+		</dependency>
+		
 		<!-- CXF -->
 		<dependency>
 			<groupId>org.apache.cxf</groupId>
@@ -145,7 +152,7 @@
 			<version>${junit.version}</version>
 			<scope>test</scope>
 		</dependency>
-		
+
 		<!-- Jackson JSON Processor -->
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
@@ -154,12 +161,12 @@
 		</dependency>
 
 		<!-- Rome Atom+RSS -->
-<!-- 		<dependency> -->
-<!-- 			<groupId>com.rometools</groupId> -->
-<!-- 			<artifactId>rome</artifactId> -->
-<!-- 			<version>1.5.0</version> -->
-<!-- 		</dependency> -->
-		
+		<!-- <dependency> -->
+		<!-- <groupId>com.rometools</groupId> -->
+		<!-- <artifactId>rome</artifactId> -->
+		<!-- <version>1.5.0</version> -->
+		<!-- </dependency> -->
+
 		<!-- Joda Time Library -->
 		<dependency>
 			<groupId>joda-time</groupId>
@@ -168,24 +175,24 @@
 		</dependency>
 
 		<!-- File Upload -->
-<!-- 		<dependency> -->
-<!-- 			<groupId>commons-fileupload</groupId> -->
-<!-- 			<artifactId>commons-fileupload</artifactId> -->
-<!-- 			<version>1.2.2</version> -->
-<!-- 		</dependency> -->
-<!-- 		<dependency> -->
-<!-- 			<groupId>commons-io</groupId> -->
-<!-- 			<artifactId>commons-io</artifactId> -->
-<!-- 			<version>2.0.1</version> -->
-<!-- 		</dependency> -->
+		<!-- <dependency> -->
+		<!-- <groupId>commons-fileupload</groupId> -->
+		<!-- <artifactId>commons-fileupload</artifactId> -->
+		<!-- <version>1.2.2</version> -->
+		<!-- </dependency> -->
+		<!-- <dependency> -->
+		<!-- <groupId>commons-io</groupId> -->
+		<!-- <artifactId>commons-io</artifactId> -->
+		<!-- <version>2.0.1</version> -->
+		<!-- </dependency> -->
 
 		<!-- Security (used for CSRF protection only) -->
-<!-- 		<dependency> -->
-<!-- 			<groupId>org.springframework.security</groupId> -->
-<!-- 			<artifactId>spring-security-web</artifactId> -->
-<!-- 			<version>4.0.1.RELEASE</version> -->
-<!-- 		</dependency> -->
-		
+		<!-- <dependency> -->
+		<!-- <groupId>org.springframework.security</groupId> -->
+		<!-- <artifactId>spring-security-web</artifactId> -->
+		<!-- <version>4.0.1.RELEASE</version> -->
+		<!-- </dependency> -->
+
 	</dependencies>
 
 	<repositories>
